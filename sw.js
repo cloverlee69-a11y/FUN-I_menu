@@ -1,5 +1,5 @@
 /* 오프라인 지원 서비스워커 — 앱 셸은 캐시 우선(백그라운드 갱신), CDN 라이브러리/폰트는 런타임 캐시 */
-const VERSION = 'bmd-v1';
+const VERSION = 'bmd-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 const CDN = ['cdnjs.cloudflare.com', 'fonts.googleapis.com', 'fonts.gstatic.com'];
 
